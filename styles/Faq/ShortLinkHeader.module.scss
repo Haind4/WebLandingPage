@@ -1,0 +1,41 @@
+.VRJPLVKVEJ {
+    .NNLLWDBKNJ {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin-bottom: 24px;
+        
+        .UTUQEPTLGG {
+            padding-right: 24px;
+            position: relative;
+            cursor: pointer;
+            transition: 0.6s all;
+
+            &:hover {
+                opacity: 0.8;
+            }
+
+            a {
+                color: #009711;
+            }
+
+            &:last-child {
+                a {
+                    color: #bebebe;
+                }
+
+                &::after {
+                    display: none;
+                }
+            }
+
+            &::after {
+                content: ">";
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                left: calc(100% - 16px);
+            }
+        }
+    }
+}

@@ -1,0 +1,123 @@
+.DJGQMJGRXP {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    h2 {
+        color: #fff;
+        font-weight: bolder;
+        font-size: 36px;
+        text-transform: uppercase;
+    }
+}
+.NOVEXDGFVD {
+    display: flex;
+    justify-content: center;
+    h1 {
+        line-height: 3rem;
+        color: transparent;
+        font-weight: bolder;
+        font-size: 58px;
+        text-transform: uppercase;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #fff;
+    }
+}
+.PVRJKQHTKE {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .VIZVJIKCDI {
+        cursor: pointer;
+        span {
+            border-width: 50px;
+            padding-bottom: 8px;
+            line-height: 5rem;
+            font-weight: bold;
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 20px;
+        }
+    }
+}
+
+.VIZVJIKCDI span {
+    position: relative;
+    padding-bottom: 8px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 5rem;
+}
+
+.VIZVJIKCDI span::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%; /* Start at the center */
+    width: 50%;
+    height: 2.5px;
+    background-color: gray;
+    transform: translateX(-50%); /* Center align */
+    transition: width 0.5s ease-in-out;
+}
+
+/* On hover, expand the border from the center */
+.VIZVJIKCDI span:hover::after {
+    width: 100%; /* Expand fully from center */
+    background-color: #fff;
+}
+.ETFLZRIATI {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 37px;
+    button {
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: bolder;
+        border-radius: 8px;
+        border: none;
+        background-color: #4173b8;
+        height: 40px;
+        font-size: 20px;
+        &:hover {
+            color: #fff;
+            background-color: #1650a2;
+        }
+    }
+}
+.INBOIVKPES {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    max-width: 1450px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 80px;
+    @media (max-width: 1000px) {
+        display: none;
+    }
+    .BEZKLDPJRE {
+        text-align: center;
+        flex-basis: calc(100% / 3 - 16px);
+        .BLLCYBTUIE {
+            color: #fff;
+            font-size: 38px;
+            font-weight: bold;
+        }
+        .SGOXBBHXSN {
+            color: #fff;
+            font-size: 20px;
+        }
+    }
+}
+.VJWXZSLVCA {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+.PQQZKZXTAX {
+    @media (max-width: 1200px) {
+        padding: 16px;
+    }
+}

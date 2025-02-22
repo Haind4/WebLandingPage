@@ -1,0 +1,100 @@
+.qdvnomygyh {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 90px;
+
+  @media (max-width: 1200px) {
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+  .miyhfovomd {
+    background: url("../../app/assets/images/Rectangle-1684.png");
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    width: 341px;
+    height: 460px;
+    position: relative;
+    @media (max-width: 1200px) {
+      background: none;
+    }
+
+    .fujqfjnsxz {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-46%, -48%);
+      width: 750px;
+
+      @media (max-width: 1200px) {
+        width: 500px;
+      }
+      @media (max-width: 700px) {
+        width: 300px;
+      }
+    }
+  }
+  .bdftftcyrm {
+    height: 445px;
+    background: #f4f4f4;
+    padding: 112px;
+    padding-left: 300px;
+
+    @media (max-width: 1200px) {
+      padding: 40px;
+      height: auto;
+      width: calc(100% - 60px);
+      text-align: center;
+    }
+    @media (max-width: 700px) {
+      padding: 20px;
+      width: calc(100% - 30px);
+    }
+    .yurdhxzuol {
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 48px;
+      color: #4b4b4b;
+
+      @media (max-width: 1200px) {
+        font-size: 30px;
+      }
+      @media (max-width: 700px) {
+        font-size: 16px;
+      }
+    }
+    .xkxpbemfzp {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 140%;
+      color: #4b4b4b;
+      @media (max-width: 1200px) {
+        font-size: 16px;
+      }
+      @media (max-width: 700px) {
+        font-size: 12px;
+      }
+    }
+    .cavcpwiqpp {
+      width: 314.44px;
+      height: 53.33px;
+      background: #00ad14;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 24px;
+      text-align: center;
+      color: #ffffff;
+      border: none;
+      text-transform: uppercase;
+
+      @media (max-width: 1200px) {
+        font-size: 14px;
+        width: 200px;
+      }
+      @media (max-width: 700px) {
+        font-size: 12px;
+        width: 200px;
+      }
+    }
+  }
+}

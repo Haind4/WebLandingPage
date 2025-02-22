@@ -1,0 +1,70 @@
+.HIQNMOJWZR {
+    cursor: pointer;
+    transition: 0.6s all;
+
+    &:hover {
+    }
+
+    &.RHUXFDVAFY {
+        .KAFKAQSKVG {
+            .HFUVLASWPT {
+                color: #00ad14;
+                font-weight: 700;
+            }
+            .TZJSUTNGHT {
+                transform: rotate(180deg);
+                svg {
+                    path {
+                        stroke: #00ad14;
+                    }
+                }
+            }
+        }
+        .VOEQBFJGQL {
+            max-height: 2000px;
+            visibility: visible;
+        }
+    }
+    .KAFKAQSKVG {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        min-height: 56px;
+        padding: 0 24px;
+        border-bottom: 2px solid #f4f4f4;
+
+        &:hover {
+            .HFUVLASWPT {
+                color: #00ad14;
+                font-weight: 700;
+            }
+
+            .TZJSUTNGHT {
+                svg {
+                    path {
+                        stroke: #00ad14;
+                    }
+                }
+            }
+        }
+
+        .HFUVLASWPT {
+            font-weight: 400;
+            font-size: 16px;
+            color: #868686;
+        }
+        .TZJSUTNGHT {
+            transition: 0.6s all;
+            svg {
+                width: 17px;
+                height: 8px;
+            }
+        }
+    }
+    .VOEQBFJGQL {
+        max-height: 0;
+        overflow: hidden;
+        visibility: hidden;
+        transition: 0.6s all;
+    }
+}

@@ -1,0 +1,118 @@
+.ejjmyvavop {
+  position: relative;
+
+  .vmipuluqse {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.79) 73.96%),
+      url("../../app/assets/images/banner-step-basic.png");
+    height: 761px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    @media (max-width: 1200px) {
+      // background: url("../../app/assets/images/banner-5-step.png");
+    }
+
+    @media (max-width: 700px) {
+      background: url("../../app/assets/images/banner-5-step.png");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+    }
+  }
+
+  .eiqgooakte {
+    position: absolute;
+    top: 50%;
+    left: 81px;
+    transform: translateY(-50%);
+
+    @media (max-width:700px) {
+      top: 10%;
+      left: 0;
+      width: 100%;
+      padding-top: 20px;
+    }
+
+    .gpnnplzpjg {
+      display: flex;
+      align-items: center;
+      // justify-content: center;
+
+      @media (max-width:1200px) {
+        // justify-content: left;
+      }
+
+      .aqxhdrwiki {
+        position: absolute;
+        top: 50%;
+        left: 133px;
+        transform: translateY(118%);
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        text-align: center;
+        background: linear-gradient(180deg, #ffe000 0%, #dc8700 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+
+        @media (max-width: 1200px) {
+          font-size: 12px;
+          top: 50%;
+          left: 15%;
+          transform: translate(-50%, 50%);
+        }
+      }
+
+      .lpvlxojsot {
+        position: absolute;
+        left: 200px;
+        background: linear-gradient(180deg, #000 31.25%, rgba(32, 32, 32, 0) 100%);
+        opacity: 0.9;
+        background: transparent;
+        padding: 33px 0;
+        padding-left: 256px;
+        padding-right: 67px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 800px;
+
+        @media (max-width:1200px) {
+          padding: 0;
+          width: 200px;
+
+        }
+
+        .xcowallhjj {
+          font-weight: 700;
+          font-size: 48px;
+          line-height: 120%;
+          text-transform: uppercase;
+          color: #ffffff;
+
+          @media (max-width:1200px) {
+            font-size: 30px;
+          }
+
+          @media (max-width:700px) {
+            font-size: 22px;
+            line-height: 27px;
+          }
+        }
+      }
+    }
+
+    .hsdvxwsdet {
+      background: url("../../app/assets/images/5.png");
+      height: 500px;
+      width: 500px;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+
+      @media (max-width:1200px) {
+        width: 200px;
+        height: 200px;
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+.JDAAYITYQP {
+    max-width: 1450px;
+    width: 100%;
+    margin: 0 auto;
+}
+.ZCIQSKRLLH {
+    cursor: pointer;
+    padding: 0 10px;
+    max-width: 459px;
+    img {
+        border-radius: 8px;
+        width: 100%;
+        height: 258px;
+        object-fit: cover;
+    }
+    &:hover {
+        .DMBHFRCTYN {
+            span {
+                transition-duration: 0.5s;
+                color: #fff;
+                background-color: #4173b8;
+            }
+        }
+    }
+}
+.DAPTAOKXXY {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+.RHWXZUCLCS {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 2rem;
+    font-size: 20px;
+}
+.DMBHFRCTYN {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+    span {
+        color: #fff;
+        padding: 0 4px;
+        border-radius: 4px;
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+}
+.FQOLIAVYGG {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.NWSTSCAEDA {
+    cursor: pointer;
+    span {
+        border-width: 50px;
+        padding-bottom: 8px;
+        line-height: 5rem;
+        font-weight: bold;
+        color: #4173b8;
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+    &:hover {
+        span {
+            color: black !important;
+        }
+    }
+}
+.NWSTSCAEDA span {
+    position: relative;
+    padding-bottom: 8px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 5rem;
+}
+
+.NWSTSCAEDA span::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 50%;
+    height: 2.5px;
+    background-color: #4173b8;
+    transform: translateX(-50%); /* Center align */
+    transition: width 0.5s ease-in-out;
+}
+
+/* On hover, expand the border from the center */
+.NWSTSCAEDA span:hover::after {
+    width: 100%; /* Expand fully from center */
+    background-color: black;
+}
