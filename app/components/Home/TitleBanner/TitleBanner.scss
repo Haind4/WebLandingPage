@@ -21,6 +21,9 @@
         -webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color: #fff;
     }
+    @media (max-width: 800px) {
+        font-size: 48px;
+    }
 }
 .PVRJKQHTKE {
     display: flex;
@@ -72,6 +75,9 @@
     justify-content: center;
     flex-direction: column;
     margin-left: 37px;
+    @media (max-width:350px) {
+        margin-left: 0;
+    }
     button {
         text-transform: uppercase;
         color: #fff;
